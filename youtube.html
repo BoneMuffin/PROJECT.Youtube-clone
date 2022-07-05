@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="youtube.css">
+    <link rel="stylesheet" href="header-youtube.css">
+    <link rel="stylesheet" href="general-youtube.css">
+    <link rel="stylesheet" href="sidebar.css">
+
+    <title>Youtube Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Roboto:ital,wght@0,400;0,700;1,500&display=swap" rel="stylesheet"> 
+
+</head>
+ <!-- empty tags/void elements do not need closing tags -->
+<body>
+    <div class="header"> <!-- created three diff sections, fill em out, and then align them vertically -->
+        <div class="left-section"><img class="hamburger-menu" src="icons/hamburger-menu.svg"><img class="youtube-logo" src="icons/youtube-logo.svg"></div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button"><img class="search-icon"src="icons/search.svg"></button>
+            <button class="voice-search-button"><img class="voice-search-icon" src="icons/voice-search-icon.svg"></button>
+        </div>
+        <div class="right-section">
+            <img class="upload-icon" src="icons/upload.svg">
+            <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+           <div class="notifications-icon-container">
+             <img class="notifications-icon"src="icons/notifications.svg"> 
+             <div class="notifications-count">3</div>
+            </div>
+            <img class="current-user-picture" src="video-pictures/profile-pic10.jpg">
+        </div>
+        
+    </div>
+
+    <div class="sidebar">
+        sidebar
+    </div>
+   
+  
+    <div class="video-grid">
+
+   <div class="video-preview">
+    <div class="thumbnail-row">
+         <img class="thumbnail" src="video-pictures/pic1.webp">
+         <div class="video-time">9:13</div>
+    </div>
+    <div class="video-info-grid">
+        <div class="channel-picture">
+            <img class="profile-picture" src="video-pictures/profile-pic1.jpg">
+        </div>
+        <div class="video-info"> 
+            <p class="video-title"> League of Legends is a totally balanced videogame </p>
+            <p class="video-author"> NotReallyButYouKnow </p>
+            <p class="video-stats"> 45B views &#183; 6 months ago </p>
+        </div>
+    </div>
+</div>
+ <!-- block element takes up the entire line. inline block element only takes up as much space as needed
+    these first two determine how elements are displayed on page, beside each other or above and below.
+        inline elements appear within a line of text -->
+
+        <!-- div is a block element by default, divs are ideal to group elements together, like boxes.
+        block elements inside divs will take up the entire line in the container
+    
+        Inline elements allows em to appear beside each other, block elements force them to take up the entire line -->
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                 <img class="thumbnail" src="video-pictures/pic7.webp">
+                 <div class="video-time">11:24</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <img class="profile-picture" src="video-pictures/profile-pic2.jpg">
+                </div>
+                <div class="video-info"> 
+                    <p class="video-title"> Yelling until my problems disappear </p>
+                    <p class="video-author"> BroIWish </p>
+                    <p class="video-stats"> 19M views &#183; 2
+                         years ago </p>
+                </div>
+            </div>
+        </div>
+     <!-- block element takes up the entire line. inline block element only takes up as much space as needed
+        these first two determine how elements are displayed on page, beside each other or above and below.
+            inline elements appear within a line of text -->
+    
+            <!-- div is a block element by default, divs are ideal to group elements together, like boxes.
+            block elements inside divs will take up the entire line in the container -->
+  
+   <div class="video-preview">
+    <div class="thumbnail-row">
+         <img class="thumbnail" src="video-pictures/pic3.webp">
+         <div class="video-time">6:03</div>
+    </div>
+    <div class="video-info-grid">
+        <div class="channel-picture">
+            <img class="profile-picture" src="video-pictures/profile-pic3.jpg">
+        </div>
+        <div class="video-info"> 
+            <p class="video-title"> Natural selection would've clapped my ass in the past </p>
+            <p class="video-author"> IAmLegallyBlind </p>
+            <p class="video-stats"> 30 views &#183; 1 day ago </p>
+        </div>
+    </div>
+</div>
+<div class="video-preview">
+    <div class="thumbnail-row">
+         <img class="thumbnail" src="video-pictures/pic8.webp">
+         <div class="video-time">4:13:08</div>
+    </div>
+    <div class="video-info-grid">
+        <div class="channel-picture">
+            <img class="profile-picture" src="video-pictures/profile-pic4.jpg">
+        </div>
+        <div class="video-info"> 
+            <p class="video-title"> Wondering how can I fuck or kill my way out of this </p>
+            <p class="video-author"> GirlbossingTilDeath </p>
+            <p class="video-stats"> 541 views &#183; 2
+                 weeks ago </p>
+        </div>
+    </div>
+</div>
+<div class="video-preview">
+    <div class="thumbnail-row">
+         <img class="thumbnail" src="video-pictures/pic5.webp">
+         <div class="video-time">8:24</div>
+    </div>
+    <div class="video-info-grid">
+        <div class="channel-picture">
+            <img class="profile-picture" src="video-pictures/profile-pic5.jpg">
+        </div>
+        <div class="video-info"> 
+            <p class="video-title"> Should've destroyed everything when I had the chance </p>
+            <p class="video-author"> ProbableCatSniffer </p>
+            <p class="video-stats"> 1.8k views &#183; 1 month ago </p>
+        </div>
+    </div>
+</div>
+<div class="video-preview">
+    <div class="thumbnail-row">
+         <img class="thumbnail" src="video-pictures/pic6.webp">
+         <div class="video-time">22:09</div>
+    </div>
+    <div class="video-info-grid">
+        <div class="channel-picture">
+            <img class="profile-picture" src="video-pictures/profile-pic6.jpg">
+        </div>
+        <div class="video-info"> 
+            <p class="video-title"> Capybaras chilling with you while you study </p>
+            <p class="video-author"> SerialFarter </p>
+            <p class="video-stats"> 42k views &#183; 7
+                 months ago </p>
+        </div>
+    </div>
+</div>
+
+</div>
+
+</body>
+</html>
