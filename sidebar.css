@@ -30,6 +30,5 @@
 
 /* will target all divs INSIDE the sidebar-link */
 .sidebar-link div {
-    font-family: Roboto, Arial;
     font-size: 10px;
 }
