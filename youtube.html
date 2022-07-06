@@ -19,6 +19,9 @@
 </head>
  <!-- empty tags/void elements do not need closing tags -->
 <body>
+
+                                       <!-- HEADER BEGINNING -->
+
     <header class="header"> <!-- created three diff sections, fill em out, and then align them vertically -->
         <div class="left-section"><img class="hamburger-menu" src="icons/hamburger-menu.svg"><img class="youtube-logo" src="icons/youtube-logo.svg"></div>
         <div class="middle-section">
@@ -26,29 +29,39 @@
             <button class="search-button"><img class="search-icon"src="icons/search.svg">
                 <div class="tooltip">Search</div>
             </button>
-            <button class="voice-search-button">
-                <img class="voice-search-icon" src="icons/voice-search-icon.svg">
+            <button class="voice-search-button"><img class="voice-search-icon" src="icons/voice-search-icon.svg">
                 <div class="tooltip">Search with your voice</div>
-              </button>
-            </div>
-            <div class="right-section">
-              <div class="upload-icon-container">
+            </button>
+        </div>
+
+        <div class="right-section">
+            <div class="upload-icon-container">
                 <img class="upload-icon" src="icons/upload.svg">
                 <div class="tooltip">Create</div>
-              </div>
-
+            </div>
+           
               <div class="youtube-apps-icon-container">
-              <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
-            </div>
-            
-              <div class="notifications-icon-container">
-                <img class="notifications-icon" src="icons/notifications.svg">
-                <div class="notifications-count">3</div>
-              </div>
-              <img class="current-user-picture" src="video-pictures/profile-pic10.jpg">
-            </div>
-    </header>
+                     <img class="youtube-apps-icon" src="icons/youtube-apps.svg">
+                     <div class="tooltip">Youtube apps</div>
+                 </div>
 
+            <div>
+                 <div class="notifications-icon-container">
+                     <img class="notifications-icon"src="icons/notifications.svg"> 
+                     <div class="notifications-count">3</div>
+                     <div class="tooltip">Notifications</div>
+                 </div>
+             </div>
+
+            <img class="current-user-picture" src="video-pictures/profile-pic10.jpg">
+
+        </div>
+        
+    </header>
+                                         <!-- HEADER END -->
+
+
+                                      <!-- SIDEBAR BEGINNING -->
     <div class="sidebar">
        <div class="sidebar-link">
         <img src="icons/home.svg">
@@ -74,8 +87,11 @@
         <div>Library</div>
     </div>
     </div>
+                                        <!-- SIDEBAR END-->
    
   
+                                  <!-- VIDEO CONTAINER BEGINNING -->
+
     <div class="video-grid">
 
    <div class="video-preview">
@@ -119,13 +135,7 @@
                 </div>
             </div>
         </div>
-     <!-- block element takes up the entire line. inline block element only takes up as much space as needed
-        these first two determine how elements are displayed on page, beside each other or above and below.
-            inline elements appear within a line of text -->
     
-            <!-- div is a block element by default, divs are ideal to group elements together, like boxes.
-            block elements inside divs will take up the entire line in the container -->
-  
    <div class="video-preview">
     <div class="thumbnail-row">
          <img class="thumbnail" src="video-pictures/pic3.webp">
@@ -142,6 +152,7 @@
         </div>
     </div>
 </div>
+
 <div class="video-preview">
     <div class="thumbnail-row">
          <img class="thumbnail" src="video-pictures/pic8.webp">
@@ -193,7 +204,110 @@
     </div>
 </div>
 
+<div class="video-preview">
+    <div class="thumbnail-row">
+         <img class="thumbnail" src="video-pictures/pic15.webp">
+         <div class="video-time">6:03</div>
+    </div>
+    <div class="video-info-grid">
+        <div class="channel-picture">
+            <img class="profile-picture" src="video-pictures/profile-pic15.jpg">
+        </div>
+        <div class="video-info"> 
+            <p class="video-title"> I swear I can be trusted around other people's plates </p>
+            <p class="video-author"> Am hungry </p>
+            <p class="video-stats"> 570 views &#183; 2 months ago </p>
+        </div>
+    </div>
 </div>
+
+<div class="video-preview">
+    <div class="thumbnail-row">
+         <img class="thumbnail" src="video-pictures/pic13.webp">
+         <div class="video-time">38:03</div>
+    </div>
+    <div class="video-info-grid">
+        <div class="channel-picture">
+            <img class="profile-picture" src="video-pictures/profile-pic14.jpg">
+        </div>
+        <div class="video-info"> 
+            <p class="video-title"> Wish I had more ideas tbh </p>
+            <p class="video-author"> GotNunToSay </p>
+            <p class="video-stats"> 1k views &#183; 1 month ago </p>
+        </div>
+    </div>
+</div>
+
+<div class="video-preview">
+    <div class="thumbnail-row">
+         <img class="thumbnail" src="video-pictures/pic14.webp">
+         <div class="video-time">15:01</div>
+    </div>
+    <div class="video-info-grid">
+        <div class="channel-picture">
+            <img class="profile-picture" src="video-pictures/pic14.jpg">
+        </div>
+        <div class="video-info"> 
+            <p class="video-title"> What loneliness does to a truckfuck </p>
+            <p class="video-author"> DontEvenAnswer </p>
+            <p class="video-stats"> 616 views &#183; 7 day ago </p>
+        </div>
+    </div>
+</div>
+
+<div class="video-preview">
+    <div class="thumbnail-row">
+         <img class="thumbnail" src="video-pictures/pic10.webp">
+         <div class="video-time">4:21</div>
+    </div>
+    <div class="video-info-grid">
+        <div class="channel-picture">
+            <img class="profile-picture" src="video-pictures/profile-pic13.jpg">
+        </div>
+        <div class="video-info"> 
+            <p class="video-title"> You're clapped anyway </p>
+            <p class="video-author"> PeewEwYouSmell </p>
+            <p class="video-stats"> 30k views &#183; 12 day ago </p>
+        </div>
+    </div>
+</div>
+
+<div class="video-preview">
+    <div class="thumbnail-row">
+         <img class="thumbnail" src="video-pictures/pic11.webp">
+         <div class="video-time">5:28</div>
+    </div>
+    <div class="video-info-grid">
+        <div class="channel-picture">
+            <img class="profile-picture" src="video-pictures/profile-pic11.jpg">
+        </div>
+        <div class="video-info"> 
+            <p class="video-title"> NFT's are totally valid </p>
+            <p class="video-author"> Nooo </p>
+            <p class="video-stats"> 133 views &#183; 1 week ago </p>
+        </div>
+    </div>
+</div>
+
+<div class="video-preview">
+    <div class="thumbnail-row">
+         <img class="thumbnail" src="video-pictures/pic12.webp">
+         <div class="video-time">2:13</div>
+    </div>
+    <div class="video-info-grid">
+        <div class="channel-picture">
+            <img class="profile-picture" src="video-pictures/profile-pic12.jpg">
+        </div>
+        <div class="video-info"> 
+            <p class="video-title"> If dangerous then why so floofy </p>
+            <p class="video-author"> BigKittyRule </p>
+            <p class="video-stats"> 309 views &#183; 12 days ago </p>
+        </div>
+    </div>
+</div>
+
+</div>
+                                    <!-- VIDEO CONTAINER END -->
 
 </body>
 </html>
